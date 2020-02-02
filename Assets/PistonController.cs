@@ -9,11 +9,16 @@ public class PistonController : MonoBehaviour
     Animator animator;
     float timer = -1;
     bool timed = false;
+    AudioSource audio;
+    public ParticleSystem smokevfx;
+
+    public AudioClip audioSobe, audioDesce, audioHit;
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -42,5 +47,21 @@ public class PistonController : MonoBehaviour
         timed = true;
         Deactivate();
         timer = time;
+    }
+
+    public void PlayDesce()
+    {
+        audio.PlayOneShot(audioDesce);
+    }
+
+    public void PlaySobe()
+    {
+        audio.PlayOneShot(audioSobe);
+    }
+
+    public void PlayHit()
+    {
+        audio.PlayOneShot(audioHit);
+        smokevfx.Play();
     }
 }

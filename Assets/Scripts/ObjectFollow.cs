@@ -13,6 +13,10 @@ public class ObjectFollow : MonoBehaviour
     void Start()
     {
         mainCamera = GetComponent<Camera>();
+        Vector3 pos = transform.position;
+        pos = toFollow.transform.position;
+        pos.z = -10;
+        transform.position = pos;
     }
 
     // Update is called once per frame

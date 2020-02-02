@@ -22,5 +22,6 @@ public class PiecePicker : MonoBehaviour
     public void Pick(){
         inventory.itens[index] = true;
         Destroy(gameObject);
+        inventory.player.pickupvfx.Play();
     }
 }

@@ -30,6 +30,7 @@ public class EquipUIController : MonoBehaviour
             if(inventory.itens[equip.index]){
                 inventory.mouseSelection.sprite = equip.icon.sprite;
                 inventory.mouseSelection.color = new Color(1, 1, 1, 1);
+                inventory.DragSFX();
             }
         }
     }
@@ -40,16 +41,16 @@ public class EquipUIController : MonoBehaviour
         if(pointer.pointerDrag != null){
             SlotUIController controller = pointer.pointerDrag.GetComponent<SlotUIController>();
             if(controller == null){
-                Debug.Log("SlotUI null");
                 EquipUIController equipController = pointer.pointerDrag.GetComponent<EquipUIController>();
 
                 if(equipController == null) return;
                 else{
-                    Debug.Log("Equip controller NOT null");
                     if(inventory.itens[equipController.equip.index]){
+                        equip.equipped = false;
                         equip = equipController.equip;
                         equipController.equip = null;
                         iconImage.sprite = pointer.pointerDrag.transform.Find("Image").GetComponent<Image>().sprite;
+                        inventory.EquipSFX();
                     }
                 }
             }
@@ -60,6 +61,7 @@ public class EquipUIController : MonoBehaviour
                     controller.equipped = true;
                     equip = controller;
                     iconImage.sprite = pointer.pointerDrag.transform.Find("Image").GetComponent<Image>().sprite;
+                    inventory.EquipSFX();
                 }
             }
         }

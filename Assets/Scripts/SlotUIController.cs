@@ -27,6 +27,7 @@ public class SlotUIController : MonoBehaviour
         if(inventory.itens[index] && !equipped){
             inventory.mouseSelection.sprite = icon.sprite;
             inventory.mouseSelection.color = new Color(1, 1, 1, 1);
+            inventory.DragSFX();
         }
     }
 

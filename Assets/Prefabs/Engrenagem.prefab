@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2029532812904651207}
   - component: {fileID: 2029532812904651203}
   - component: {fileID: 2029532812904651202}
-  - component: {fileID: 2029532812904651205}
   - component: {fileID: 2029532812904651204}
   - component: {fileID: 2029532812904651200}
+  - component: {fileID: 164919920617505954}
   m_Layer: 0
   m_Name: Engrenagem
   m_TagString: Untagged
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a79672ce670c1bf46b3fe7445ee003f9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0f5c212c14c0e4943ba7225b10aeca20, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -96,22 +96,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77488d48e47e18e448c585e3d5115fc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!58 &2029532812904651205
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2029532812904651206}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 4
+  evt:
+    m_PersistentCalls:
+      m_Calls: []
+  player: {fileID: 0}
 --- !u!95 &2029532812904651204
 Animator:
   serializedVersion: 3
@@ -168,3 +156,29 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!61 &164919920617505954
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029532812904651206}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 21, y: 15.001465}
+    newSize: {x: 4.31, y: 4.31}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 21, y: 15.001465}
+  m_EdgeRadius: 0
