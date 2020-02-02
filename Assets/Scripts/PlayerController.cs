@@ -117,6 +117,13 @@ public class PlayerController : MonoBehaviour
         if(other.gameObject.GetComponent<Interactable>() != null){
             interactions.Add(other.gameObject.GetComponent<Interactable>());
         }
+
+        if(other.GetComponent<Gear>() != null){
+            Gear gear = other.GetComponent<Gear>();
+            if(inventory.OnArm() == 0){
+                gear.Activate();
+            }
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other) {
