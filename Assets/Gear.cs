@@ -6,13 +6,14 @@ using UnityEngine.Events;
 public class Gear : MonoBehaviour
 {
 
-    public UnityEvent onTurn;
     Animator animator;
+    public UnityEvent evt;
+    public PlayerController player;
 
     // Start is called before the first frame update
     void Start()
     {
-     animator = GetComponent<Animator>();   
+        animator = GetComponent<Animator>();   
     }
 
     // Update is called once per frame
@@ -22,8 +23,11 @@ public class Gear : MonoBehaviour
     }
 
     public void Activate(){
-        animator.SetTrigger("Activate");
-        onTurn.Invoke();
+
+        if (player.inventory.OnArm() == 0) {
+            animator.SetTrigger("Activate");
+            evt.Invoke();
+        }
     }
 
 
