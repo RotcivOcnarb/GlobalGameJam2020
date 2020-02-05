@@ -1,0 +1,1410 @@
+fileFormatVersion: 2
+guid: 798c77387de16984bb6b2da433b2806c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: "Plataforma - Registro c\xF3pia 10"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4390
+      y: 4
+      width: 850
+      height: 146
+    spriteID: 874137f4bf2cac2409c910e45e4e6061
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4390, y: -1289}
+  - name: "Plataforma - Registro c\xF3pia 9"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8076
+      y: 4
+      width: 0
+      height: 0
+    spriteID: 7b9b9c43ed12f3a46b268ae955a82033
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3698, y: -2246}
+  - name: "Plataforma - Registro c\xF3pia 8"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8084
+      y: 4
+      width: 0
+      height: 0
+    spriteID: f66b39aff5f23274c85ac403ecadb927
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3706, y: -2246}
+  - name: "Plataforma - Registro c\xF3pia 7"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8092
+      y: 4
+      width: 0
+      height: 0
+    spriteID: b65f8075c57febc44b544f4b9f11b4aa
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3714, y: -2246}
+  - name: "Plataforma - Registro c\xF3pia 6"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8100
+      y: 4
+      width: 0
+      height: 0
+    spriteID: 574c3866d394bea4db80436e2abb90a2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3722, y: -2246}
+  - name: "Plataforma - Registro c\xF3pia 5"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8108
+      y: 4
+      width: 0
+      height: 0
+    spriteID: e9e2725d785098947bd0c79e91c54380
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3730, y: -2246}
+  - name: "Plataforma - Registro c\xF3pia 4"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8116
+      y: 4
+      width: 0
+      height: 0
+    spriteID: 42a3c4321b678fa4a88b7207f4f5d96a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3738, y: -2246}
+  - name: "Plataforma - Registro c\xF3pia 3"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8124
+      y: 4
+      width: 0
+      height: 0
+    spriteID: 2189a292cb85adc46a575a5f0dc1a1ee
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3746, y: -2246}
+  - name: "Plataforma - Registro c\xF3pia 2"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8132
+      y: 4
+      width: 0
+      height: 0
+    spriteID: d273f6f0ceec3af4690acc8aca8a0621
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3754, y: -2246}
+  - name: Plataforma 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8140
+      y: 4
+      width: 0
+      height: 0
+    spriteID: d78d9310c67f43242bc5af1353f428b1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3762, y: -2246}
+  - name: "Plataforma 1 c\xF3pia"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8148
+      y: 4
+      width: 0
+      height: 0
+    spriteID: e96a7d74ac221914e85d926c681f69fd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3770, y: -2246}
+  - name: Plataforma cortada
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8156
+      y: 4
+      width: 0
+      height: 0
+    spriteID: 8c9372e137d0f06409afa5fbe9f4ffa8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3778, y: -2246}
+  - name: "Parede - Creme Original c\xF3pia 3"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8164
+      y: 4
+      width: 0
+      height: 0
+    spriteID: 07f590ad02a41d34a8774eeccaa18a31
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3786, y: -2246}
+  - name: "Parede - Creme Original c\xF3pia 2"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 534
+      width: 153
+      height: 183
+    spriteID: 7bfc3faffc802344190523d6e50d531b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1147, y: -1195}
+  - name: "Parede - Solit\xE1ria c\xF3pia 2"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8172
+      y: 4
+      width: 0
+      height: 0
+    spriteID: 39e1a0026624f524b9d2034aa5c30b5d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3794, y: -2246}
+  - name: "Parede de 5 - 3 c\xF3pia 6"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5602
+      y: 431
+      width: 487
+      height: 78
+    spriteID: 2c35d2a322784af4e8d59759fb2f9584
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1711, y: -1452}
+  - name: "Parede de 5 - 3 c\xF3pia 5"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5248
+      y: 4
+      width: 699
+      height: 78
+    spriteID: 5fce17005212bcd4db89cf9b65eba66b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2043, y: -1879}
+  - name: "Parede de 5 - 3 c\xF3pia 4"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5955
+      y: 4
+      width: 699
+      height: 78
+    spriteID: 3b12e931cfab7b4458a56fad43035bfa
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3431, y: -1879}
+  - name: "Parede de 5 - 3 c\xF3pia 3"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6662
+      y: 4
+      width: 699
+      height: 78
+    spriteID: 8498d54460b2e014db4215e3af5e4af4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4823, y: -1879}
+  - name: "Parede de 5 - 3 c\xF3pia 2"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7369
+      y: 4
+      width: 699
+      height: 78
+    spriteID: e25123a937a4f524f96e92e8e019f602
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6214, y: -1879}
+  - name: "Parede de 5 - 3 c\xF3pia"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4390
+      y: 431
+      width: 699
+      height: 78
+    spriteID: 4e104d7a848528e46a44b72657697bc3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3914, y: -1452}
+  - name: "Parede de 5 - 3 c\xF3pia 7"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8180
+      y: 4
+      width: 0
+      height: 0
+    spriteID: 02a8a892efe48f441b28888783c6077f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3802, y: -2246}
+  - name: Parede de 5 - 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5097
+      y: 431
+      width: 497
+      height: 78
+    spriteID: 815acdf55619f3441b60415e4ceacfde
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5097, y: -1452}
+  - name: "Parede - Solit\xE1ria c\xF3pia 4"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8188
+      y: 4
+      width: 0
+      height: 0
+    spriteID: f8b5767a1f09f694a9dd3e2431c7d9fb
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3810, y: -2246}
+  - name: "Tilojos - Esverdeado Original c\xF3pia 6"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8076
+      y: 12
+      width: 0
+      height: 0
+    spriteID: ba364f46c42a85b4ab4d6312e4b4d413
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3698, y: -2238}
+  - name: "Tilojos - Esverdeado Original c\xF3pia 5"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8084
+      y: 12
+      width: 0
+      height: 0
+    spriteID: 64a7378f4834dcb4f90ef4ca9bd3245c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3706, y: -2238}
+  - name: "Plataforma 2 c\xF3pia"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8092
+      y: 12
+      width: 0
+      height: 0
+    spriteID: 19d73ec7c5d7af54e87027b3e261ad8a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3714, y: -2238}
+  - name: "Ch\xE3o"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 279
+      width: 4378
+      height: 144
+    spriteID: 76b2a5d74f6197540b6053a037e2ee80
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 279}
+  - name: "Camada 1 c\xF3pia 4"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8100
+      y: 12
+      width: 0
+      height: 0
+    spriteID: 28250ae43fdced24a9e0bb630164700c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3722, y: -2238}
+  - name: "Camada 1 c\xF3pia 10"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8108
+      y: 12
+      width: 0
+      height: 0
+    spriteID: 4909b66b7f3b3fa499c92877ab9e8f04
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3730, y: -2238}
+  - name: "Camada 1 c\xF3pia 9"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8116
+      y: 12
+      width: 0
+      height: 0
+    spriteID: 8c117817017848440bc615141a6f8b20
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3738, y: -2238}
+  - name: "Camada 1 c\xF3pia 8"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8124
+      y: 12
+      width: 0
+      height: 0
+    spriteID: 89b3c5653566f5444a918860d4350e83
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3746, y: -2238}
+  - name: "Camada 1 c\xF3pia 6"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8132
+      y: 12
+      width: 0
+      height: 0
+    spriteID: aeb43f8e5e002b349b214962bceff498
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3754, y: -2238}
+  - name: "Camada 1 c\xF3pia 7"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8140
+      y: 12
+      width: 0
+      height: 0
+    spriteID: 36bf6c9705c8a0e439191801e58a4b4f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3762, y: -2238}
+  - name: "Camada 1 c\xF3pia 3"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8148
+      y: 12
+      width: 0
+      height: 0
+    spriteID: abf0139a5839d11469061950e232cbd1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3770, y: -2238}
+  - name: "Camada 1 c\xF3pia 2"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8156
+      y: 12
+      width: 0
+      height: 0
+    spriteID: adf5d936dd80e3f429832b2ca1e2f52d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3778, y: -2238}
+  - name: "Camada 1 c\xF3pia"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8164
+      y: 12
+      width: 0
+      height: 0
+    spriteID: 5948aae3984aaa241bfdef39a0558ef4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3786, y: -2238}
+  - name: "Camada 1 c\xF3pia 5"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8172
+      y: 12
+      width: 0
+      height: 0
+    spriteID: 2fc776d9c3f7c984ba53f50da10671fb
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3794, y: -2238}
+  - name: Camada 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8180
+      y: 12
+      width: 0
+      height: 0
+    spriteID: 224002efbe3560344a8b0f27a5079f7d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3802, y: -2238}
+  - name: Teto 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8188
+      y: 12
+      width: 0
+      height: 0
+    spriteID: 0a39c34728a03f947866f0b748849b64
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3810, y: -2238}
+  - name: "Teto 1 c\xF3pia 5"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 431
+      width: 4378
+      height: 95
+    spriteID: 74fa67b3dc0a0314aa4da185b633bbfa
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: -1474}
+  - name: "Teto 1 c\xF3pia 4"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 4378
+      height: 267
+    spriteID: 7ae70ca19d8576a4abdaa2c14f76448b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: -1979}
+  - name: Plataforma 1_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8076
+      y: 20
+      width: 0
+      height: 0
+    spriteID: 47dbf12debfc7384795251fd8d8b80bd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3698, y: -2230}
+  platformSettings:
+  - name: Default
+    overridden: 1
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 8192
+  importedTextureHeight: 8192
+  documentSize: {x: 4378, y: 2250}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 8192
+  textureActualHeight: 8192
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Plataformas
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 8
+    mosaicPosition: {x: 0, y: 0}
+  - name: "Plataforma - Registro c\xF3pia 10"
+    spriteName: "Plataforma - Registro c\xF3pia 10"
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 874137f4bf2cac2409c910e45e4e6061
+    layerID: 196
+    mosaicPosition: {x: 4390, y: 4}
+  - name: "Plataforma - Registro c\xF3pia 9"
+    spriteName: "Plataforma - Registro c\xF3pia 9"
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 7b9b9c43ed12f3a46b268ae955a82033
+    layerID: 195
+    mosaicPosition: {x: 8076, y: 4}
+  - name: "Plataforma - Registro c\xF3pia 8"
+    spriteName: "Plataforma - Registro c\xF3pia 8"
+    isGroup: 0
+    parentIndex: 0
+    spriteID: f66b39aff5f23274c85ac403ecadb927
+    layerID: 194
+    mosaicPosition: {x: 8084, y: 4}
+  - name: "Plataforma - Registro c\xF3pia 7"
+    spriteName: "Plataforma - Registro c\xF3pia 7"
+    isGroup: 0
+    parentIndex: 0
+    spriteID: b65f8075c57febc44b544f4b9f11b4aa
+    layerID: 193
+    mosaicPosition: {x: 8092, y: 4}
+  - name: "Plataforma - Registro c\xF3pia 6"
+    spriteName: "Plataforma - Registro c\xF3pia 6"
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 574c3866d394bea4db80436e2abb90a2
+    layerID: 192
+    mosaicPosition: {x: 8100, y: 4}
+  - name: "Plataforma - Registro c\xF3pia 5"
+    spriteName: "Plataforma - Registro c\xF3pia 5"
+    isGroup: 0
+    parentIndex: 0
+    spriteID: e9e2725d785098947bd0c79e91c54380
+    layerID: 97
+    mosaicPosition: {x: 8108, y: 4}
+  - name: "Plataforma - Registro c\xF3pia 4"
+    spriteName: "Plataforma - Registro c\xF3pia 4"
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 42a3c4321b678fa4a88b7207f4f5d96a
+    layerID: 95
+    mosaicPosition: {x: 8116, y: 4}
+  - name: "Plataforma - Registro c\xF3pia 3"
+    spriteName: "Plataforma - Registro c\xF3pia 3"
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2189a292cb85adc46a575a5f0dc1a1ee
+    layerID: 94
+    mosaicPosition: {x: 8124, y: 4}
+  - name: "Plataforma - Registro c\xF3pia 2"
+    spriteName: "Plataforma - Registro c\xF3pia 2"
+    isGroup: 0
+    parentIndex: 0
+    spriteID: d273f6f0ceec3af4690acc8aca8a0621
+    layerID: 42
+    mosaicPosition: {x: 8132, y: 4}
+  - name: Plataforma 1
+    spriteName: Plataforma 1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: d78d9310c67f43242bc5af1353f428b1
+    layerID: 19
+    mosaicPosition: {x: 8140, y: 4}
+  - name: "Plataforma 1 c\xF3pia"
+    spriteName: "Plataforma 1 c\xF3pia"
+    isGroup: 0
+    parentIndex: 0
+    spriteID: e96a7d74ac221914e85d926c681f69fd
+    layerID: 43
+    mosaicPosition: {x: 8148, y: 4}
+  - name: Plataforma cortada
+    spriteName: Plataforma cortada
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 8c9372e137d0f06409afa5fbe9f4ffa8
+    layerID: 44
+    mosaicPosition: {x: 8156, y: 4}
+  - name: Paredes e Telhados
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 10
+    mosaicPosition: {x: 0, y: 0}
+  - name: Paredes
+    spriteName: 
+    isGroup: 1
+    parentIndex: 13
+    spriteID: 00000000000000000000000000000000
+    layerID: 12
+    mosaicPosition: {x: 0, y: 0}
+  - name: "Parede - Creme Original c\xF3pia 3"
+    spriteName: "Parede - Creme Original c\xF3pia 3"
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 07f590ad02a41d34a8774eeccaa18a31
+    layerID: 175
+    mosaicPosition: {x: 8164, y: 4}
+  - name: "Parede - Creme Original c\xF3pia 2"
+    spriteName: "Parede - Creme Original c\xF3pia 2"
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 7bfc3faffc802344190523d6e50d531b
+    layerID: 167
+    mosaicPosition: {x: 4, y: 534}
+  - name: "Parede - Solit\xE1ria c\xF3pia 2"
+    spriteName: "Parede - Solit\xE1ria c\xF3pia 2"
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 39e1a0026624f524b9d2034aa5c30b5d
+    layerID: 164
+    mosaicPosition: {x: 8172, y: 4}
+  - name: "Parede de 5 - 3 c\xF3pia 6"
+    spriteName: "Parede de 5 - 3 c\xF3pia 6"
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 2c35d2a322784af4e8d59759fb2f9584
+    layerID: 173
+    mosaicPosition: {x: 5602, y: 431}
+  - name: "Parede de 5 - 3 c\xF3pia 5"
+    spriteName: "Parede de 5 - 3 c\xF3pia 5"
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 5fce17005212bcd4db89cf9b65eba66b
+    layerID: 172
+    mosaicPosition: {x: 5248, y: 4}
+  - name: "Parede de 5 - 3 c\xF3pia 4"
+    spriteName: "Parede de 5 - 3 c\xF3pia 4"
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 3b12e931cfab7b4458a56fad43035bfa
+    layerID: 171
+    mosaicPosition: {x: 5955, y: 4}
+  - name: "Parede de 5 - 3 c\xF3pia 3"
+    spriteName: "Parede de 5 - 3 c\xF3pia 3"
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 8498d54460b2e014db4215e3af5e4af4
+    layerID: 170
+    mosaicPosition: {x: 6662, y: 4}
+  - name: "Parede de 5 - 3 c\xF3pia 2"
+    spriteName: "Parede de 5 - 3 c\xF3pia 2"
+    isGroup: 0
+    parentIndex: 14
+    spriteID: e25123a937a4f524f96e92e8e019f602
+    layerID: 169
+    mosaicPosition: {x: 7369, y: 4}
+  - name: "Parede de 5 - 3 c\xF3pia"
+    spriteName: "Parede de 5 - 3 c\xF3pia"
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 4e104d7a848528e46a44b72657697bc3
+    layerID: 166
+    mosaicPosition: {x: 4390, y: 431}
+  - name: "Parede de 5 - 3 c\xF3pia 7"
+    spriteName: "Parede de 5 - 3 c\xF3pia 7"
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 02a8a892efe48f441b28888783c6077f
+    layerID: 197
+    mosaicPosition: {x: 8180, y: 4}
+  - name: Parede de 5 - 3
+    spriteName: Parede de 5 - 3
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 815acdf55619f3441b60415e4ceacfde
+    layerID: 163
+    mosaicPosition: {x: 5097, y: 431}
+  - name: "Parede - Solit\xE1ria c\xF3pia 4"
+    spriteName: "Parede - Solit\xE1ria c\xF3pia 4"
+    isGroup: 0
+    parentIndex: 14
+    spriteID: f8b5767a1f09f694a9dd3e2431c7d9fb
+    layerID: 153
+    mosaicPosition: {x: 8188, y: 4}
+  - name: "Tilojos - Esverdeado Original c\xF3pia 6"
+    spriteName: "Tilojos - Esverdeado Original c\xF3pia 6"
+    isGroup: 0
+    parentIndex: 14
+    spriteID: ba364f46c42a85b4ab4d6312e4b4d413
+    layerID: 104
+    mosaicPosition: {x: 8076, y: 12}
+  - name: "Tilojos - Esverdeado Original c\xF3pia 5"
+    spriteName: "Tilojos - Esverdeado Original c\xF3pia 5"
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 64a7378f4834dcb4f90ef4ca9bd3245c
+    layerID: 72
+    mosaicPosition: {x: 8084, y: 12}
+  - name: "Plataforma 2 c\xF3pia"
+    spriteName: "Plataforma 2 c\xF3pia"
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 19d73ec7c5d7af54e87027b3e261ad8a
+    layerID: 198
+    mosaicPosition: {x: 8092, y: 12}
+  - name: "Ch\xE3o"
+    spriteName: "Ch\xE3o"
+    isGroup: 0
+    parentIndex: 14
+    spriteID: 76b2a5d74f6197540b6053a037e2ee80
+    layerID: 38
+    mosaicPosition: {x: 4, y: 279}
+  - name: Telhados
+    spriteName: 
+    isGroup: 1
+    parentIndex: 13
+    spriteID: 00000000000000000000000000000000
+    layerID: 14
+    mosaicPosition: {x: 0, y: 0}
+  - name: "Camada 1 c\xF3pia 4"
+    spriteName: "Camada 1 c\xF3pia 4"
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 28250ae43fdced24a9e0bb630164700c
+    layerID: 117
+    mosaicPosition: {x: 8100, y: 12}
+  - name: "Camada 1 c\xF3pia 10"
+    spriteName: "Camada 1 c\xF3pia 10"
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 4909b66b7f3b3fa499c92877ab9e8f04
+    layerID: 191
+    mosaicPosition: {x: 8108, y: 12}
+  - name: "Camada 1 c\xF3pia 9"
+    spriteName: "Camada 1 c\xF3pia 9"
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 8c117817017848440bc615141a6f8b20
+    layerID: 190
+    mosaicPosition: {x: 8116, y: 12}
+  - name: "Camada 1 c\xF3pia 8"
+    spriteName: "Camada 1 c\xF3pia 8"
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 89b3c5653566f5444a918860d4350e83
+    layerID: 188
+    mosaicPosition: {x: 8124, y: 12}
+  - name: "Camada 1 c\xF3pia 6"
+    spriteName: "Camada 1 c\xF3pia 6"
+    isGroup: 0
+    parentIndex: 31
+    spriteID: aeb43f8e5e002b349b214962bceff498
+    layerID: 186
+    mosaicPosition: {x: 8132, y: 12}
+  - name: "Camada 1 c\xF3pia 7"
+    spriteName: "Camada 1 c\xF3pia 7"
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 36bf6c9705c8a0e439191801e58a4b4f
+    layerID: 187
+    mosaicPosition: {x: 8140, y: 12}
+  - name: "Camada 1 c\xF3pia 3"
+    spriteName: "Camada 1 c\xF3pia 3"
+    isGroup: 0
+    parentIndex: 31
+    spriteID: abf0139a5839d11469061950e232cbd1
+    layerID: 116
+    mosaicPosition: {x: 8148, y: 12}
+  - name: "Camada 1 c\xF3pia 2"
+    spriteName: "Camada 1 c\xF3pia 2"
+    isGroup: 0
+    parentIndex: 31
+    spriteID: adf5d936dd80e3f429832b2ca1e2f52d
+    layerID: 115
+    mosaicPosition: {x: 8156, y: 12}
+  - name: "Camada 1 c\xF3pia"
+    spriteName: "Camada 1 c\xF3pia"
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 5948aae3984aaa241bfdef39a0558ef4
+    layerID: 114
+    mosaicPosition: {x: 8164, y: 12}
+  - name: "Camada 1 c\xF3pia 5"
+    spriteName: "Camada 1 c\xF3pia 5"
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 2fc776d9c3f7c984ba53f50da10671fb
+    layerID: 159
+    mosaicPosition: {x: 8172, y: 12}
+  - name: Camada 1
+    spriteName: Camada 1
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 224002efbe3560344a8b0f27a5079f7d
+    layerID: 113
+    mosaicPosition: {x: 8180, y: 12}
+  - name: Teto 1
+    spriteName: Teto 1
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 0a39c34728a03f947866f0b748849b64
+    layerID: 84
+    mosaicPosition: {x: 8188, y: 12}
+  - name: "Teto 1 c\xF3pia 5"
+    spriteName: "Teto 1 c\xF3pia 5"
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 74fa67b3dc0a0314aa4da185b633bbfa
+    layerID: 100
+    mosaicPosition: {x: 4, y: 431}
+  - name: "Teto 1 c\xF3pia 4"
+    spriteName: "Teto 1 c\xF3pia 4"
+    isGroup: 0
+    parentIndex: 31
+    spriteID: 7ae70ca19d8576a4abdaa2c14f76448b
+    layerID: 92
+    mosaicPosition: {x: 4, y: 4}
+  - name: Plataforma 1
+    spriteName: Plataforma 1_1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 47dbf12debfc7384795251fd8d8b80bd
+    layerID: 129
+    mosaicPosition: {x: 8076, y: 20}
+  - name: "Cen\xE1rio"
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 16
+    mosaicPosition: {x: 0, y: 0}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  boneGOs: []
+  generateGOHierarchy: 0
+  textureAssetName: cenario_3 Texture
+  prefabAssetName: cenario_3 Prefab
+  spriteLibAssetName: cenario_3 Sprite Lib

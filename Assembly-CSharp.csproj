@@ -64,6 +64,8 @@
   <ItemGroup>
     <Compile Include="Assets\Box.cs" />
     <Compile Include="Assets\BoxDispenser.cs" />
+    <Compile Include="Assets\CameraSizeChanger.cs" />
+    <Compile Include="Assets\Checkpoint.cs" />
     <Compile Include="Assets\CollisionDetection.cs" />
     <Compile Include="Assets\Door.cs" />
     <Compile Include="Assets\Esteira.cs" />
@@ -85,6 +87,7 @@
     <Compile Include="Assets\Spriter2UnityDX\Runtime\EntityRenderer.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\SortingOrderUpdater.cs" />
     <Compile Include="Assets\Spriter2UnityDX\Runtime\TextureController.cs" />
+    <Compile Include="Assets\TransitionFade.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
@@ -162,6 +165,12 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>E:/unity/Roboot/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="PsdPlugin">
+      <HintPath>E:/unity/Roboot/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>E:/unity/Roboot/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

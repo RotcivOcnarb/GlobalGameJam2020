@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     public Animator playerAnimator;
     public GameObject interactionUI;
     public GameObject animationRoot;
+    public TransitionFade transition;
     bool equipOpen = false;
     AudioSource audio;
 
@@ -48,8 +49,6 @@ public class PlayerController : MonoBehaviour
     Vector2 targetVelocity;
     public float dragSpeed;
     public float walkSpeed;
-    public float jumpHeight;
-    public float hiJumpHeight;
     public float wheelSpeed;
     int direction = 1;
     bool falling;
@@ -101,7 +100,6 @@ public class PlayerController : MonoBehaviour
             rightArm.SetActive(hasArms());
         
             float speed = walkSpeed;
-            float jump = jumpHeight;
             if (!hasLegs()) speed = dragSpeed;
             if (inventory.OnLegs() == 0) {
                 speed = wheelSpeed;
@@ -307,14 +305,8 @@ public class PlayerController : MonoBehaviour
 
             });
 
-            StartCoroutine(ResetScene());
+            transition.ExitToScene("GameScene");
         }
-    }
-
-    IEnumerator ResetScene()
-    {
-        yield return new WaitForSeconds(3);
-        SceneManager.LoadScene(1);
     }
 
     public void Iterate(Transform root, Action<Transform> action)

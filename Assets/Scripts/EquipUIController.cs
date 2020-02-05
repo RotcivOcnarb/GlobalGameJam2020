@@ -46,7 +46,9 @@ public class EquipUIController : MonoBehaviour
                 if(equipController == null) return;
                 else{
                     if(inventory.itens[equipController.equip.index]){
-                        equip.equipped = false;
+                        if(equip != null)
+                            equip.equipped = false;
+
                         equip = equipController.equip;
                         equipController.equip = null;
                         iconImage.sprite = pointer.pointerDrag.transform.Find("Image").GetComponent<Image>().sprite;

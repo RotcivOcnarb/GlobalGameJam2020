@@ -9,6 +9,8 @@ public class ObjectFollow : MonoBehaviour
     public Rect bounds;
     Camera mainCamera;
 
+    public float targetSize = 3;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,9 +24,12 @@ public class ObjectFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         Vector3 pos = transform.position;
         pos += (toFollow.transform.position - pos) / 10f;
         pos.z = -10;
+
+        mainCamera.orthographicSize += (targetSize - mainCamera.orthographicSize) / 10f;
 
         float cameraWidth = mainCamera.orthographicSize * mainCamera.aspect;
         float cameraHeight = mainCamera.orthographicSize;
