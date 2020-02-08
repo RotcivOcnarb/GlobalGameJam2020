@@ -39,7 +39,7 @@ public class SelectionWrench : MonoBehaviour
     public void Hover(GameObject button)
     {
         if (!clicked) {
-            toFollow = button;
+            toFollow = button.transform.Find("Icon").gameObject;
 
             audio.clip = hovers[Random.Range(0, hovers.Length)];
             audio.Play();
@@ -55,8 +55,21 @@ public class SelectionWrench : MonoBehaviour
         }
     }
 
+    public void Unclick()
+    {
+        clicked = false;
+        GetComponent<Animator>().SetTrigger("Deselect");
+        GetComponent<Animator>().ResetTrigger("Select");
+        Debug.Log("UNCLICKED");
+    }
+
     public void StartGame()
     {
         SceneManager.LoadScene(1);
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 }

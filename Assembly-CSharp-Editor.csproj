@@ -96,6 +96,9 @@
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
       <HintPath>E:/unity/Roboot/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="PsdPlugin">
+      <HintPath>E:/unity/Roboot/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>E:/unity/Roboot/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
@@ -104,6 +107,9 @@
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>E:/unity/Roboot/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>E:/unity/Roboot/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
       <HintPath>E:/unity/Roboot/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
@@ -134,12 +140,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>E:/unity/Roboot/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="PsdPlugin">
-      <HintPath>E:/unity/Roboot/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>E:/unity/Roboot/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
